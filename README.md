@@ -130,7 +130,7 @@ Guide](https://docs.nvidia.com/deeplearning/sdk/inference-user-guide/index.html)
 launch the inference server container pointing to that model
 store. For example:
 
-    $ nvidia-docker run --rm -p8000:8000 -p8001:8001 -v/path/to/dl-inference-server/examples/models:/models nvcr.io/nvidia/tensorrtserver:18.09-py3 trtserver --model-store=/models
+    $ nvidia-docker run --rm -p8000:8000 -p8001:8001 -v/path/to/dl-inference-server/examples/models:/models nvcr.io/nvidia/tensorrtserver:18.10-py3 trtserver --model-store=/models
 
 Make sure you choose the most recent version of
 nvcr.io/nvidia/tensorrtserver. Port 8000 exposes the inference server
