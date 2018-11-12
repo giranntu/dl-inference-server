@@ -77,7 +77,7 @@ and example image\_client and perf\_client applications can be built:
 Build artifacts are in build/.  The Python whl file is generated in
 build/dist/dist/ and can be installed with a command like the following:
 
-    pip install --no-cache-dir --upgrade build/dist/dist/tensorrtserver-0.6.0-cp27-cp27mu-linux_x86_64.whl
+    pip install --no-cache-dir --upgrade build/dist/dist/tensorrtserver-0.7.0-cp35-cp35m-linux_x86_64.whl
 
 ## Building the Clients with Docker
 
