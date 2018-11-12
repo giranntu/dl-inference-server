@@ -33,7 +33,8 @@ REQUIRED = [
     'future',
     'numpy',
     'protobuf>=3.5.0',
-    'grpcio'
+    'grpcio',
+    'Pillow'
 ]
 
 try:
